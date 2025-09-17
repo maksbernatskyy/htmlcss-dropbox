@@ -72,6 +72,24 @@ ul{
     list-style-type: none;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+
+    a{
+        color: white;
+    }
+
+    .line{
+        margin-bottom: 1rem;
+    }
+}
+
+ol{
+    list-style-type: none;
+}
+
 /*Utilities*/
 
 /*Container*/
@@ -110,6 +128,11 @@ ul{
 
 .col-3{
     width: calc(100% / 3);
+    padding: 1rem;
+}
+
+.col-5{
+    width: calc(100% / 5);
     padding: 1rem;
 }
 
@@ -269,4 +292,8 @@ input[type="radio"]{
 
 .community{
     margin: 8rem 0;
+}
+
+.pié{
+    font-size: 0.75rem;
 }
