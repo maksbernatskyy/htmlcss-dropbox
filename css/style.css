@@ -116,6 +116,7 @@ ul{
 
 .card{
     border: 1px solid #9598a5;
+    height: 100%;
 }
 
 /*Specifics*/
@@ -175,7 +176,7 @@ input[type="radio"]{
     line-height: 2rem;
     position: relative;
 
-    span{
+    .btn{
         display: inline-block;
     }
 }
@@ -190,13 +191,12 @@ input[type="radio"]{
 }
 
 .time{
-    display: inline-block;
+    display: block;
     color: #9598a5;
     margin-bottom: 2rem;
 }
 
 .btn-long{
-    display: inline-block;
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -227,4 +227,5 @@ input[type="radio"]{
 
 .paragraph{
     width: 60%;
+    margin-top: 2rem;
 }
