@@ -73,6 +73,7 @@ ul{
 /*Container*/
 
 .container-big{
+    min-width: 1050px;
     width: 70%;
     margin: auto;
 }
