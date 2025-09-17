@@ -100,6 +100,7 @@ ul{
 .row{
     display: flex;
     margin: 2rem -1rem;
+    flex-wrap: wrap;
 }
 
 .col-3{
@@ -121,6 +122,7 @@ ul{
 .btn{
     background-color: #0061fe;
     color: white;
+    text-align: center;
 }
 
 .padd{
@@ -170,6 +172,11 @@ input[type="radio"]{
 .characteristics-business{
     padding: 1rem 0.5rem;
     line-height: 2rem;
+    position: relative;
+
+    span{
+        display: inline-block;
+    }
 }
 
 .title-charact{
@@ -189,11 +196,20 @@ input[type="radio"]{
 
 .btn-long{
     display: inline-block;
-    text-align: center;
-    width: 90%;
-    margin-left: 12px;
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.btn-pos{
+    width: 12.5rem;
+    display: inline-block;
+}
+
+.pos{
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .link{
@@ -206,4 +222,8 @@ input[type="radio"]{
     width: 20%;
     border-bottom: 1px solid #9598a5;
     margin: 2rem 0;
+}
+
+.paragraph{
+    width: 60%;
 }
