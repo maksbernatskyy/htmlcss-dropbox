@@ -6,12 +6,6 @@
     box-sizing: border-box;
 }
 
-/*Debug*/
-
-.debug main{
-    padding-bottom: 50px;
-}
-
 /*Generics*/
 
 body{
@@ -27,6 +21,10 @@ img{
 /*Header*/
 
 header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
 
     nav{
         padding: 15px;
@@ -161,6 +159,8 @@ ol{
     background-color: #0061fe;
     color: white;
     text-align: center;
+
+    &hover
 }
 
 .btn-white{
@@ -180,10 +180,6 @@ ol{
     padding: 3rem 0;
     height: 660px;
     margin-bottom: 10rem;
-
-    .w-30{
-        position: relative;
-    }
 }
 
 .mrg2{
@@ -192,8 +188,8 @@ ol{
 }
 
 .arrow{
-    position: absolute;
-    bottom: 5rem;
+    display: inline-block;
+    margin-top: 20%;
     font-size: 2rem;
 }
 
@@ -218,11 +214,14 @@ input[type="radio"]{
 .characteristics-business{
     padding: 1rem;
     line-height: 2rem;
-    position: relative;
 
     .btn{
         display: inline-block;
     }
+}
+
+.pos-rel{
+    position: relative;
 }
 
 .title-charact{
