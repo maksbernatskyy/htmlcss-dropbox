@@ -70,6 +70,15 @@ ul{
     list-style-type: none;
 }
 
+li{
+    display: flex;
+    align-items: baseline;
+
+    i{
+        margin-right: 4px;
+    }
+}
+
 footer{
     background-color: black;
     color: white;
@@ -188,6 +197,7 @@ ol{
 }
 
 .arrow{
+    color: black;
     display: inline-block;
     margin-top: 20%;
     font-size: 2rem;
@@ -278,6 +288,7 @@ input[type="radio"]{
 
     .w-30{
         padding-top: 2rem;
+        padding-left: 1.5rem;
     }
 
     p{
