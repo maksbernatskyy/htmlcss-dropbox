@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*Generics*/
 
 body{
@@ -25,14 +29,22 @@ header{
     background-color: white;
     width: 100%;
     z-index: 1;
+    height: 55px;
 
     nav{
-        padding: 15px;
+        padding: 15px 15px 0 15px;
     }
 
     a{
         color: black;
         margin: 0 8px;
+        padding-bottom: 18px;
+
+        &:hover{
+            text-decoration: none;
+            border-bottom: 3px solid black;
+        }
+
     }
 }
 
@@ -193,8 +205,8 @@ ol{
 
 .jumbotron{
     background-color: #b4d0e6;
-    padding: 3rem 0;
-    height: 660px;
+    padding: 5rem 0;
+    height: 690px;
     margin-bottom: 10rem;
 }
 
