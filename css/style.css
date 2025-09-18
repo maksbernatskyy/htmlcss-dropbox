@@ -153,6 +153,10 @@ ol{
 
 /*Specifics*/
 
+.text-dec-none:hover{
+    text-decoration: none;
+}
+
 .btn{
     background-color: #0061fe;
     color: white;
