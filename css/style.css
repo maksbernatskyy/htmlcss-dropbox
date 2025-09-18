@@ -169,7 +169,9 @@ ol{
     color: white;
     text-align: center;
 
-    &hover
+    &:hover{
+        box-shadow: 0 0 10px #0061fe;
+    }
 }
 
 .btn-white{
@@ -178,6 +180,11 @@ ol{
     margin-top: 2rem;
     border: 1px solid black;
     color: black;
+
+    &:hover{
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
 }
 
 .padd{
