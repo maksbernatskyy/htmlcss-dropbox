@@ -205,9 +205,12 @@ ol{
 
 .jumbotron{
     background-color: #b4d0e6;
-    padding: 5rem 0;
-    height: 690px;
+    padding-top: 5rem;
     margin-bottom: 10rem;
+}
+
+.jumbo-image{
+    margin-bottom: -6rem;
 }
 
 .mrg2{
